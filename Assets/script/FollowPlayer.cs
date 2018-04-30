@@ -19,5 +19,3 @@ public class FollowPlayer : MonoBehaviour
         GetComponent<Transform>().position = target.position + offset;
     }
 }
-
-

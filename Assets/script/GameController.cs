@@ -17,3 +17,4 @@ public class GameController : MonoBehaviour
             winnerLabelObject.SetActive(true);
         }
     }
+}

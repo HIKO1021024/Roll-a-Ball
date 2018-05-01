@@ -4,6 +4,7 @@ using System.Collections;
 public class GameController : MonoBehaviour
 {
     public UnityEngine.UI.Text scoreLabel;
+    public GameObject winnerLabelObject;
 
     public void Update()
     {
@@ -12,7 +13,7 @@ public class GameController : MonoBehaviour
 
         if (count == 0)
         {
-            // クリア時の処理
+            // オブジェクトをアクティブにする
+            winnerLabelObject.SetActive(true);
         }
     }
-}
